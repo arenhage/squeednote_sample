@@ -1,0 +1,11 @@
+/* CSS declarations go here */
+.note-box {
+	width: 25%;
+	box-shadow:10px 10px 5px #D3D3D3;
+	border:2px solid;
+	border-color: gray;
+	background-color: orange;
+	border-radius: 25px;
+	text-align: center;
+	margin-top: 15px;
+}

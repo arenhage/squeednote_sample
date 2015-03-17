@@ -1,0 +1,32 @@
+<head>
+  <title>squeednote</title>
+</head>
+
+<body>
+  <h1>Welcome to Squeednote!</h1>
+  {{> addNote}}
+  {{> notes}}
+</body>
+
+<template name="notes">
+	{{#each notes}}
+		{{> note}}
+	{{/each}}
+</template>
+
+<template name="note">
+	<div class="note-box">
+		<h2>{{title}}</h2>
+		<p>{{text}}</p>
+	</div>
+</template>
+
+<template name="addNote">
+	<form class="add-note">
+		<input type="text" name="title"
+			placeholder="title"/>
+		<input type="text" name="text"
+			placeholder="text"/>
+		<button type="submit">Submit</button>
+	</form>
+</template>
