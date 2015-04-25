@@ -8,5 +8,6 @@ http://www.javaforum.se/jf/archive.jsp#m134
 
 ### How do I get set up? ###
 
-> cd squeednote
-> meteor
+cd squeednote
+
+meteor
